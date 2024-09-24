@@ -1,12 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name :Vignesh.v
 
+Roll no :212223230241
 
-
-
-
+Date of experiment :12-08-2024
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
 ## Theory 
@@ -78,30 +75,75 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
-
+```
+MOV AL,88H
+MOV BL,65H
+ADD AL,BL
+HLT
+```
 ## Output  
- 
+![alt text](Add.png)
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ```
+MOV AL,84H
+MOV BL,63H
+SUB AL,BL
+HLT
+```
 ## Output  
-## Multiplication alp 
+![alt text](Sub.png)
+## Multiplication of 8 bit numbers  ALP  
+```
+MOV AL,75H
+MOV BL,32H
+MUL BL
+HLT
+```
  ## Output  
-
-
-## Division alp 
-
+![alt text](Mul.png)
+## Division of 8 bit numbers  ALP 
+```
+MOV AL,68H
+MOV BL,18H
+DIV BL
+HLT
+```
 ## Output  
-
-
+![alt text](Div.png)
+## AND of 8 bit numbers  ALP 
+```
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+```
+## OUTPUT
+![alt text](And.png)
+## OR of 8 bit numbers  ALP 
+```
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
+```
+## OUTPUT
+![alt text](Or.png)
+## NOT of 8 bit numbers  ALP 
+```
+MOV AL,65H
+NOT AL
+HLT
+```
+## OUTPUT
+![alt text](Not.png)
+## XOR of 8 bit numbers  ALP 
+```
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+```
+## OUTPUT
+![alt text](Xor.png)
 ## Result :
- 
-
-
-
-
-
-
-
-
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
