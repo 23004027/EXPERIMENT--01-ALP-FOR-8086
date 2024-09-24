@@ -3,7 +3,7 @@ Name :Vignesh
 
 Roll no : 212222230009
 
-Date of experiment :
+Date of experiment :13.08.2024
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -77,13 +77,14 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## ADDITION of 8 bit ALP 
 ```
-MOV AL,74H
-MOV BL,69H
+MOV AL,88H
+MOV BL,65H
 ADD AL,BL
 HLT
 ```
 ## Output  
-![experiment--01-ALP-FOR-8086](1.png)
+![Screenshot 2024-09-23 083131](https://github.com/user-attachments/assets/d3f94fa3-b32d-40cd-8a4d-e0b966e90cb6)
+
 ## SUBTRACTION of 8 bit numbers  ALP 
 ```
 MOV AL,84H
@@ -92,7 +93,8 @@ SUB AL,BL
 HLT
 ```
 ## Output  
-![experiment--01-ALP-FOR-8086](2.png)
+![Screenshot 2024-09-23 083143](https://github.com/user-attachments/assets/24ed7ee9-c1d6-4a00-90a0-a638ae5333f5)
+
 ## MULTIPLICATION of 8 bit ALP 
 ```
 MOV AL,75H
@@ -101,7 +103,8 @@ MUL BL
 HLT
 ```
 ## Output  
-![experiment--01-ALP-FOR-8086](3.png)
+![Screenshot 2024-09-23 083156](https://github.com/user-attachments/assets/cfba8ac3-8879-4368-a7ce-066b2e086662)
+
 
 ## DIVISION of 8 bit ALP 
 ```
@@ -111,7 +114,8 @@ DIV BL
 HLT
 ```
 ## Output  
-![experiment--01-ALP-FOR-8086](4.png)
+![Screenshot 2024-09-23 083207](https://github.com/user-attachments/assets/40c73086-b83f-490e-92d1-22a5e800b19c)
+
 ## AND of 8 bit ALP 
 ```
 MOV AL,33H
@@ -120,7 +124,8 @@ AND AL,BL
 HLT
 ```
 ## Output 
-![experiment--01-ALP-FOR-8086](5.png)
+![Screenshot 2024-09-23 083217](https://github.com/user-attachments/assets/0f351eee-372b-420e-a411-8115a7c68c79)
+
 ## OR of 8 bit ALP 
 ```
 MOV AL,45H
@@ -129,7 +134,8 @@ OR AL,BL
 HLT
 ```
 ## Output 
-![experiment--01-ALP-FOR-8086](6.png)
+![Screenshot 2024-09-23 083227](https://github.com/user-attachments/assets/61a91fce-f57e-4048-9be3-effe2cabb5a1)
+
 ## NOT of 8 bit ALP 
 ```
 MOV AL,65H
@@ -137,7 +143,8 @@ NOT AL
 HLT
 ```
 ## Output 
-![experiment--01-ALP-FOR-8086](8.png)
+![Screenshot 2024-09-23 083238](https://github.com/user-attachments/assets/fbdae277-1ced-4b2b-8963-4577b2033eaa)
+
 ## XOR of 8 bit ALP 
 ```
 MOV AL,66H
@@ -146,7 +153,8 @@ XOR AL,BL
 HLT
 ```
 ## Output 
-![experiment--01-ALP-FOR-8086](7.png)
+)![Screenshot 2024-09-23 083253](https://github.com/user-attachments/assets/c64cff02-66f4-4842-a691-dea4e3e9caf7)
+
 ## Result :
 Thus to Write and execute ALP on fundamental arithmetic and logical operations are verified successfully.
 
