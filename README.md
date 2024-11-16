@@ -1,9 +1,6 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :Vignesh
-
+Name :Vignesh.V
 Roll no : 212222230009
-
-Date of experiment :13.08.2024
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
